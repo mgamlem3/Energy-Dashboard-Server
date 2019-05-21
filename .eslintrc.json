@@ -1,0 +1,127 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": ["warn", "error"]
+            }
+        ],
+        "no-empty-function": [
+            "warn"
+        ],
+        "no-floating-decimal": [
+            "error"
+        ],
+        "no-iterator": [
+            "error"
+        ],
+        "no-lone-blocks": [
+            "warn"
+        ],
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignoreArrayIndexes": true
+            }
+        ],
+        "no-multi-spaces": [
+            "error"
+        ],
+        "no-multi-str": [
+            "warn"
+        ],
+        "no-undefined": [
+            "warn"
+        ],
+        "no-unused-vars": [
+            "off"
+        ],
+        "array-bracket-spacing": [
+            "error"
+        ],
+        "block-spacing": [
+            "error"
+        ],
+        "brace-style": [
+            "error",
+            "1tbs"
+        ],
+        "camelcase": [
+            "error",
+            {
+                "properties": "always"
+            }
+        ],
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "comma-style": [
+            "error",
+            "last"
+        ],
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "line-comment-position": [
+            "error",
+            "above"
+        ],
+        "lines-around-comment": [
+            "error",
+            {
+                "beforeBlockComment": true,
+                "afterBlockComment": true,
+                "beforeLineComment": true,
+                "afterLineComment": false
+            }
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-single"
+        ],
+        "no-tabs": [
+            "error"
+        ]
+    }
+}

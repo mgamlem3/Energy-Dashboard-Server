@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.1.1",
+  "description": "backend for Energy Dashboard",
+  "license": "MIT",
+  "private": false,
+  "main": "server.js",
+  "scripts": {
+    "start": "yarn node server.js",
+    "lint": "eslint ./src/"
+  },
+  "author": "Michael Gamlem III",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^5.16.0",
+    "express": "^4.17.0",
+    "mongo-sanitize": "^1.0.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.5.10",
+    "morgan": "^1.9.1"
+  }
+}
